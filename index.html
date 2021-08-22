@@ -5,15 +5,23 @@
     <title>Geodez</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
-<body>
+<body class="body">
+    
     <header class="header" id="header">
         <div class="content content__header">
             <nav class="header__nav">
+                <div class="menu__btn">
+                    <div class="menu__btn__one"></div>
+                    <div class="menu__btn__two"></div>
+                </div>
+                <div class="body__overlay"></div>
                 <ul class="header__nav__ul">
                     <li class="header__nav__ul--li"><a href="#welcome">Главная</a></li>
                     <li class="header__nav__ul--li"><a href="#services">Услуги</a></li>
                     <li class="header__nav__ul--li"><a href="#about-us">О нас</a></li>
+                    <li class="header__nav__ul--li"><a href="#footer">Контакты</a></li>
                 </ul>
             </nav>
             <div class="header__phone-btn">
@@ -113,7 +121,7 @@
                 </ul>
             </div>
         </section>
-        <footer class="footer__black-container">
+        <footer class="footer__black-container" id="footer">
             <h3 class="footer__title">Контакты</h3>
             <div class="footer__connect-block">
                 <p class="footer__text-small">C 9.00 до 19.00</p>
