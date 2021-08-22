@@ -233,10 +233,11 @@ body {
     border-radius: 14px;
     cursor: pointer; 
     background-image: linear-gradient(to right top, #2c3441, #30343f, #32353d, #34353b, #363639);   
-    -webkit-box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 10px 8px 17px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 10px 8px 17px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 10px 8px 17px 4px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
+    text-decoration: none;
 }
 .about-us__phone-btn:active {
     -webkit-box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.2);
@@ -255,5 +256,4 @@ body {
     font-size: 35px;
     text-align: center;
     margin: 15px auto;
-
 }
