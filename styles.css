@@ -168,7 +168,7 @@ body {
     padding: 0px 30px;
 }
 .services__ul--li__text-content--toggle {
-    display: block;
+    display: list-item;
 }
 .price {
     width: 100%;
