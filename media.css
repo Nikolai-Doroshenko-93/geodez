@@ -41,6 +41,7 @@
         top: 0;
         z-index: 8;
         overflow: hidden;
+        transition: width 0.3s;
     }
     .header__nav-ul-toggle {
         width: 40%;
@@ -51,7 +52,7 @@
         top: 180px;
         left: 130px;
         padding: 20px 0px;
-        font-size: 35px
+        font-size: 35px;
     }
 
 .menu__btn {
