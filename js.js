@@ -1,4 +1,3 @@
-let sectionServices = document.querySelector('.services');
 let buttonBlock = document.querySelectorAll('.services__ul--li');
 let textBlock = document.querySelectorAll('.services__ul--li__text-content');
 let i = 0;
