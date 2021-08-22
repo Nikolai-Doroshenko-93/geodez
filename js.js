@@ -5,6 +5,6 @@ let i = 0;
 for(i; i<buttonBlock.length; i++) {
     let k = i;
     buttonBlock[i].addEventListener('click', () => {
-        textBlock[k].classList.toggle('services__ul--li__text-content--toggle')
+            textBlock[k].classList.toggle('services__ul--li__text-content--toggle')
     })
 }
