@@ -164,7 +164,7 @@ body {
     padding-left: 20px;
 }
 .services__ul--li__text-content {
-    display: block;
+    display: none;
     padding: 0px 30px;
 }
 .services__ul--li__text-content--toggle {
@@ -186,8 +186,9 @@ body {
     padding-top: 20px;
 }
 .about-us{
-    height: 500px;
+    height: 600px;
 }
+
 .about-us__title {
     text-align: center;
     font-size: 30px;
@@ -216,6 +217,16 @@ body {
 .clock {
     position: relative;
     left: 10px;
+}
+
+/*отсюда на черном*/
+
+.about-us__black-container {
+    width: 100%;
+    max-width: 1920px;
+    /* height: 500px; */
+    color: white;
+    background-image: linear-gradient(to right top, #2c3441, #30343f, #32353d, #34353b, #363639);
 }
 .about-us__copyright {
     text-align: center;
