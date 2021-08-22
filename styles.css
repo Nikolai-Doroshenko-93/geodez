@@ -138,12 +138,15 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 50px;
+    font-size: 25px;
 }
 .services__ul--li {
     border: 2px solid white;
     border-radius: 14px;
     margin: 20px 0px;
-    text-align: center;
+    text-align: center; 
+}
+.services__ul--li h2 {
     font-size: 25px;
 }
 .services__ul--li:hover {
