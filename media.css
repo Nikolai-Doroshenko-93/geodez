@@ -89,6 +89,9 @@
     -moz-box-shadow: none;
     box-shadow: none;
 }
+.header__phone-btn:hover .header__phone {
+    color: white;
+}
 .footer__phone-btn:hover {
     border: 2px solid white;
     color: white;
