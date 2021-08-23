@@ -34,7 +34,7 @@
         height:100%;
         width: 0;
         overflow: hidden;
-        background-color: #000000;
+        background-image: linear-gradient(to right top, #2c3441, #30343f, #32353d, #34353b, #363639);   
         display: block;
         position: absolute;
         left: 0;
