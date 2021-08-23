@@ -96,4 +96,7 @@
     -moz-box-shadow: none;
     box-shadow: none;
 }
+.footer__phone-btn:hover .footer__phone {
+    color: white;
+}
 }
